@@ -1,0 +1,57 @@
+.row {
+  width: 50%;
+  justify-content: flex-end;
+}
+.control {
+  border-width: 3px !important;
+  width: 100px !important;
+  margin: 0.3rem;
+}
+.control:focus {
+  outline: none;
+}
+
+.rightContainer {
+  margin: auto;
+  width: 60%;
+}
+.rightContainerFirstContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.rightContainerSecondContainer {
+  display: flex;
+  justify-content: center;
+}
+.rightContainerThirdContainer {
+  display: flex;
+  justify-content: center;
+}
+.label {
+  font-size: 1.3rem;
+  margin-bottom: 0 !important;
+}
+.mainHeading {
+  color: #0d6efd;
+}
+.group {
+  margin-top: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-success {
+  background-color: #0d6efd !important;
+}
+@media only screen and (max-width: 600px) {
+  .modal-footer {
+    justify-content: center !important;
+  }
+  .footer_button {
+    width: 50%;
+  }
+}
+.control_color {
+  padding: 0 !important;
+}

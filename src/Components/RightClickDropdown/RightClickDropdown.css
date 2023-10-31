@@ -1,0 +1,10 @@
+/* Fade-in animation */
+.custom-fade-in {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out !important;
+}
+
+/* Fade-in active state */
+.custom-fade-in.active {
+  opacity: 1;
+}
